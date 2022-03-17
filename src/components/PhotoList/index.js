@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function PhotoList({ category }) {
+const PhotoList = ({ category }) => {
   const [photos] = useState([
     {
       name: "Grocery aisle",
@@ -134,6 +134,6 @@ function PhotoList({ category }) {
       </div>
     </div>
   );
-}
+};
 
 export default PhotoList;
